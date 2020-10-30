@@ -1,21 +1,22 @@
 # [mamiu/debug](https://hub.docker.com/r/mamiu/debug) - Docker image for debugging
 
-This docker image can be used in any environment where containers are able to run (e.g. Kubernetes).
+This docker image is a collection of tools to debug and analyze any environment where containers are able to run (e.g. Kubernetes).
 
 ### Build the docker image
 
 ```bash
-docker build -t mamiu/debug .
+DOCKER_USER_NAME=<your docker username>
+docker build -t $DOCKER_USER_NAME/debug .
 ```
 
 ### Test the docker image
 
 ```bash
-docker run -ti --rm mamiu/debug
+docker run -ti --rm $DOCKER_USER_NAME/debug
 ```
 
-### Push the mamiu/debug docker image
+### Push the debug image to docker hub
 
 ```bash
-docker push mamiu/debug
+docker push $DOCKER_USER_NAME/debug
 ```
