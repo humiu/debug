@@ -1,4 +1,4 @@
-# [mamiu/debug](https://hub.docker.com/r/mamiu/debug) - Docker image for debugging
+# [humiu/debug](https://hub.docker.com/r/humiu/debug) - Docker image for debugging
 
 This docker image is a collection of tools to debug and analyze any environment where containers are able to run (e.g. Kubernetes).
 
