@@ -2,6 +2,10 @@
 
 This docker image is a collection of tools to debug and analyze any environment where containers are able to run (e.g. Kubernetes).
 
+## Requirements
+
+The only requirement for this debug container is to have a Powerline compatible font like [Fira Code](https://github.com/tonsky/FiraCode) or the [patched fonts](https://github.com/powerline/fonts) from the Powerline project installed and setup in your terminal emulator.
+
 ## Usage
 
 The following command will launch a debug container in your Kubernetes cluster and attach to it.  
